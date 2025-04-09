@@ -1,0 +1,32 @@
+// Create basic sass variables
+$color-primary: #55c57a;
+$color-secondary: goldenrod;
+$margin: 32px;
+$padding: 16px;
+
+body{
+    background-color: $color-primary;
+}
+
+.font-size{
+    font-size: 32px;
+}
+
+.survay{
+    background-color: $color-secondary;
+    padding: $padding;
+    
+
+    .survay-header{
+        @extend .font-size;
+        // @include flex;
+    }
+}
+
+
+@mixin flex($direction: row, $justify: space-between, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

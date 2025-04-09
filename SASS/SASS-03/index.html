@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS-03</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main id="main">
+        <div class="survey">
+            <div class="survey-header d-flex justify-content-center align-items-center flex-direction-column my-5">
+                <h1>SATISFACTION SURVEY</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, laudantium.</p>
+            </div>
+            <div class="survey-content">
+                <div class="survey-content-header bg-gray p-5 font-size-18">
+                    <div class="survey-wizard  d-flex justify-content-center align-items-center">
+                        <progress id="file" value="32" max="100"> 32% </progress>
+                    </div>
+                </div>
+
+                <div class="survey-content bg-white p-5 font-size-18">Body</div>
+
+                <div class="survey-content-footer bg-gray p-5 font-size-18 d-flex justify-content-center align-items-center">
+                    <div class="survey-controls">
+                        <button class="btn btn-bg-info btn-text-white mx-1">Forward</button>
+                        <button class="btn btn-bg-dark btn-text-white mx-1">Backward</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

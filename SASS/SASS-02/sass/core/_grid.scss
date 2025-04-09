@@ -1,0 +1,18 @@
+// todo Grid classes
+
+@for $i from 1 through $grid-columns{
+    .col-#{$i}{
+        width: calc((100% / 12) * #{$i})
+    }
+}
+
+
+@each $breakpoint, $value in $breakpoints{
+    @media (min-width: $value){
+        @for $i from 1 through $grid-columns{
+            .col-#{$breakpoint}-#{$i}{
+                width: calc((100% / 12) * #{$i})
+            }
+        }
+    }
+}
