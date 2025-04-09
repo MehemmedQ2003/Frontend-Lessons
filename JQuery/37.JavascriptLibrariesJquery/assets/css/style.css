@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.active{
+    background-color: green;
+}
+
+.passive{
+    background-color: red;
+}
