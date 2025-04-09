@@ -1,0 +1,17 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid teal;
+}
+
+.other-container{
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid midnightblue;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+}
