@@ -1,0 +1,13 @@
+.card{
+    border: 10px solid #ccc;
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+.card button{
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
